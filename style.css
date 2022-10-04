@@ -20,7 +20,7 @@ body {
   /* transition: all 0.2s fade-in-out; */
   display: flex;
   flex-direction: row;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(7px);
   box-shadow: 0px 0px 40px rgb(0, 0, 0);
 }
 
@@ -28,7 +28,7 @@ body {
   width: 300px;
   padding-left: 20px;
   margin-top: -20px;
-  margin-left: 60px;
+  margin-left: 30px;
   color: aliceblue;
   font-size: 20px;
   font-weight: 100;
@@ -41,11 +41,12 @@ body {
 .box-img2 {
   height: 680px;
   padding-left: 10px;
+  width: 400px;
   padding-top: 15px;
 }
 
 h3 {
-  color: aqua;
+  color: rgba(214, 44, 252, 0.992);
   /* margin: 3px; */
   font-weight: 300;
   padding-left: 40px;
@@ -57,7 +58,7 @@ h3 {
   font-weight: 900;
 } */
 a:hover {
-  color: rgb(19, 217, 252);
+  color: rgba(214, 44, 252, 0.792);
   transform: scale(2);
   margin-bottom: 2px;
   font-weight: 500;
@@ -79,15 +80,15 @@ form {
   font-size: 2em;
   margin-bottom: 0px;
   padding-top: 0px;
-  margin-left: -440px;
+  margin-left: -450px;
 
   border: none;
-  color: aqua;
+  color: rgba(214, 44, 252, 0.992);
 }
 
 form input {
   border: none;
-  background-color: rgba(240, 248, 255, 0);
+  background-color:rgba(107, 102, 255, 0.01);
   color: #aaa;
   font-size: 30px;
   font-weight: 500;
@@ -100,8 +101,16 @@ form input:focus {
   height: 780px;
   position: fixed;
   width: 700px;
-  background-color: aqua;
+  background-color:hsla(0,100%,50%,1);
+background-image:
+radial-gradient(at 40% 20%, hsla(240,75%,61%,1) 0px, transparent 50%),
+radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+radial-gradient(at 0% 50%, hsla(189,80%,49%,1) 0px, transparent 50%),
+radial-gradient(at 80% 50%, hsla(340,66%,70%,1) 0px, transparent 50%),
+radial-gradient(at 0% 100%, hsla(233,66%,60%,1) 0px, transparent 50%),
+radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
+radial-gradient(at 0% 0%, hsla(343,61%,60%,1) 0px, transparent 50%);
   margin-left: -40px;
   margin-top: 30px;
-  box-shadow: 0px 0px 30px aqua;
+  box-shadow: 0px 0px 30px rgba(209, 102, 255, 0.656);
 }
